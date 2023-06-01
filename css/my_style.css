@@ -1,36 +1,70 @@
-body{
-	font-family: 'Noto Sans TC', sans-serif;
+body {
+    font-family: 'Noto Sans TC',sans-serif;
+ }
+ 
+ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+     font-family: 'Noto Sans TC',sans-serif;
+     text-transform: none;
+ }
+ 
+ .subheading  {
+    font-family: 'Noto Sans TC' ,sans-serif;
+    text-transform: none;
+ }
+ 
+ .expedu_icon {
+    color: #495057;
+    text-decoration: none;
+ }
+ 
+ .expedu_icon:hover {
+    color: var(--bs-primary);
+ }
+ 
+ :root {
+    --bs-primary: #408080;
+    --bs-primary-rgb: 64, 128, 128;
+    --bs-secondary: #FFD306;
+    --bs-secondary-rgb: 255, 211, 6;
+ }
+ 
+ .expedu_icon:hover {
+    color: var(--bs-secondary);
+ }
+ 
+ a {
+    color: var(--bs-primary);
+ }
+ 
+ a:hover {
+    color: var(--bs-secondary);
+ }
+ 
+ .social-icons .social-icon:hover {
+    background-color: var(--bs-secondary);
+ }
+
+ .fa-ul{
+   font-size: 1.1rem;
+ }
+
+ .dropdown-item:hover {
+   background-color: #95CACA;
+ }
+
+ .tt {
+   height: 2.5rem ;
+ }
+
+.card {
+   width: 310px;
 }
 
-h1, h2, h3, h4 ,h5 ,h6 , .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: 'Noto Sans TC', sans-serif;
+.btn {
+   background-color: #6FB7B7;
 }
 
-.subheading {
-	font-family: 'Noto Sans TC',sans-serif;
+.btn:hover {
+   background-color: #95CACA;
 }
 
-body{
-	text-transform: none;
-}
-
-h1, h2, h3, h4 ,h5 ,h6 , .h1, .h2, .h3, .h4, .h5, .h6 {
-	text-transform: none;
-}
-
-.subheading{
-	text-transform: none;
-}
-
-.bg-primary{
-	background-color:#6e7ae7!important;
-	background-image: url(../assets/img/green-gobbler.png);
-}
-
-.text-primary{
-	color: 	#00ffc8!important;
-}
-
-a{
-	color: 	#ff009d;
-}
